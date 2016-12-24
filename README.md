@@ -1,7 +1,7 @@
 # ryan-mckenzie.github.io
 Personal Webpage
 
-<img src="ryan-mckenzie/ryan-mckenzie.github.io/blob/master/profilepic.jpg" alt="hi" class="inline"/>
+<img src="https://github.com/ryan-mckenzie/ryan-mckenzie.github.io/blob/master/profilepic.jpg" alt="hi" class="inline"/>
 
 <p>Hello World
 
