@@ -5,14 +5,14 @@ body {
 .top {
     position:absolute;
     left:0; right:0;
-    height: 1000px;
+    height: 850px;
 }
 .left {
     position:absolute;
-    left:0; top:1000px; bottom: 0;
-    width: 178px;
+    left:0; top:850px; bottom: 0;
+    width: 100px;
 }
 .main {
     position: absolute;
-    left:178px; top:1000px; right:0; bottom:0;
+    left:100px; top:850px; right:0; bottom:0;
 }
