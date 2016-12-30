@@ -9,10 +9,10 @@ body {
 }
 .left {
     position:absolute;
-    left:100px; top:360px; bottom: 0;
-    width: 500px;
+    left:300px; top:360px; bottom: 0;
+    width: 300px;
 }
 .main {
     position: absolute;
-    left:100px; top:360px; right:0; bottom:0;
+    left:300px; top:360px; right:0; bottom:0;
 }
