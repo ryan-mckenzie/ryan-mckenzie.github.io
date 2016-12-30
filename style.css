@@ -9,7 +9,7 @@ body {
 }
 .left {
     position:absolute;
-    left:0; top:360px; bottom: 0;
+    left:50px; top:360px; bottom: 0;
     width: 420px;
 }
 .main {
