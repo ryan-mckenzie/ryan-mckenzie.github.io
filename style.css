@@ -10,7 +10,7 @@ body {
 .left {
     position:absolute;
     left:100px; top:360px; bottom: 0;
-    width: 100px;
+    width: 500px;
 }
 .main {
     position: absolute;
