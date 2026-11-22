@@ -4,30 +4,23 @@
     <title>Ryan McKenzie</title>
 
     <style>
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
+        .gallery {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 10px;
+            max-width: 1300px;
             margin: 30px auto;
-            max-width: 1100px;
         }
 
-        .large-image {
-            width: 70%;
-            height: auto;
-        }
-
-        .small-images {
-            width: 25%;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .small-images img {
+        .gallery img {
             width: 100%;
-            height: auto;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gallery img:first-child {
+            grid-row: span 2;
+            height: 410px;
         }
 
         h2 {
@@ -40,21 +33,15 @@
 
     <p><a href="https://ryan-mckenzie.github.io">Back</a></p>
 
-    <center>
-        <h2>Look deep, deep into nature, and then you will understand everything better.</h2>
-    </center>
+    <h2>Look deep, deep into nature, and then you will understand everything better.</h2>
 
-    <div class="image-container">
-
-        <!-- Large image on the left -->
-        <img src="Sea2Sky.jpg" alt="Hugging a tree" class="large-image">
-
-        <!-- Two smaller images on the right -->
-        <div class="small-images">
-            <img src="TreeHugging.jpg" alt="Nature image 2">
-            <img src="TreeHugging.jpg" alt="Nature image 3">
-        </div>
-
+    <div class="gallery">
+        <img src="Sea2Sky.jpg" alt="Nature">
+        <img src="TreeHugging.jpg" alt="Nature">
+        <img src="TreeHugging.jpg" alt="Nature">
+        <img src="TreeHugging.jpg" alt="Nature">
+        <img src="TreeHugging.jpg" alt="Nature">
+        <img src="TreeHugging.jpg" alt="Nature">
     </div>
 
 </body>
